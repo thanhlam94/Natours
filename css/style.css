@@ -8,7 +8,9 @@ Dark green: #28b485
 */
 
 /* Perform Basic Reset on cross-browser */
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0; 
     box-sizing: inherit;
